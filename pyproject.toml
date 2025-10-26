@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-news-feed"
+version = "0.1.0"
+description = "Realtime news aggregator and notification system using FastAPI"
+authors = [
+    {name = "priyanshubarnw",email = "barnwal.priyanshu4@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.120.0,<0.121.0)",
+    "uvicorn (>=0.38.0,<0.39.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
